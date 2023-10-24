@@ -116,6 +116,22 @@
 // Here is a list of favorite movies:
 
 // const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+// console.log(favMovies[8]) //this show the movie in that section
+
+// favMovies.push("Guardians of the Galaxy") // added the movie
+// console.log(favMovies)
+
+// favMovies.sort()
+// console.log(favMovies)// rearrage the order
+
+// favMovies.unshift()
+// console.log(favMovies) // shift reorder the movie i dont see a difference in unshift but i see amovie Jaws in it now 
+
+// favMovies.slice("Django Unchained") // splice doesnt show the entire list, need to be slice to add with teh added avator movie
+// favMovies.push("Avatar")
+// console.log(favMovies) // 
+
 // Console log the index of Titanic.
 // Do the following and console.log the final results. (I have included some thought questions; you don't have to write out an answer for those marked as such).
 
@@ -149,9 +165,10 @@
 //                       ["Lucinda", "Jacc", "Neff", "Snoop"],
 //                       ["Petunia", ["Baked Goods", "Waldo"]]];
                       
-//                       whereIsWaldo[2][2]= "No One"
-//                         console.log(whereIsWaldo);
-
+// //                       whereIsWaldo[2][2]= "No One"
+// //                         console.log(whereIsWaldo);
+// const updatedWhereIsWaldo = whereIsWaldo.filter(item => item == "Eggbert");
+// console.log(updatedWhereIsWaldo)
 
                     //   console.log(whereIsWaldo[3][1][1]);
 
@@ -201,7 +218,7 @@
 // // Expected output: 15
 // The commit message should read: "Find the Median answered"
 
-
+// optional down here // dont not need to do 
 // Hungry for More?
 // The remainder of these problems are optional; however, we encourage more practice whenever you have the time for it!
 
